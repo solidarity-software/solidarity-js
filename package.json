@@ -1,0 +1,13 @@
+{
+    "name": "@logical-so/root",
+    "scripts": {
+        "lint": "eslint --ext ts,tsx --report-unused-disable-directives --max-warnings 0 .",
+        "lint:fix": "eslint --fix --ext ts,tsx --report-unused-disable-directives --max-warnings 0 .",
+        "precommit": "lint-staged"
+    },
+    "devDependencies": {
+        "eslint": "^8.39.0",
+        "husky": "^8.0.3",
+        "typescript": "*"
+    }
+}
