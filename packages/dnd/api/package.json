@@ -1,11 +1,12 @@
 {
-  "name": "api",
+  "name": "@solidarity-software/dnd-api",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
   },
+  "license": "Apache-2.0",
   "devDependencies": {
     "@types/body-parser": "^1.19.2",
     "@types/cors": "^2.8.13",

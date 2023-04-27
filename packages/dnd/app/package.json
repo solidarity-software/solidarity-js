@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "@solidarity-software/dnd-app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,6 +8,7 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "license": "Apache-2.0",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
