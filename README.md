@@ -1,4 +1,4 @@
-# Solidarity Software Monorepo
+# Solidarity Software JS Monorepo
 
 To encourage consistency in tooling and encourage sharing of code Solidarity Software is using a [monorepo](https://en.wikipedia.org/wiki/Monorepo). Also everything in this repository is covered under the Apache License, v2 license. This means anyone, including the original authors, can use the code in any way they see fit with only minor restrictions. Read the full [license](./LICENSE) for details.
 
