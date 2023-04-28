@@ -1,0 +1,53 @@
+{
+    "tasks": [
+        {
+            "problemMatcher": [],
+            "label": "Build All",
+            "detail": "vite",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": ["API: Build", "App: Build"]
+        },
+        {
+            "problemMatcher": [],
+            "label": "Dev All",
+            "detail": "vite",
+            "dependsOn": ["API: Dev", "App: Dev"]
+        },
+        {
+            "type": "npm",
+            "script": "dev",
+            "path": "api",
+            "problemMatcher": [],
+            "label": "API: Dev",
+            "detail": "vite"
+        },
+        {
+            "type": "npm",
+            "script": "dev",
+            "path": "app",
+            "problemMatcher": [],
+            "label": "App: Dev",
+            "detail": "vite"
+        },
+        {
+            "type": "npm",
+            "script": "build",
+            "path": "api",
+            "problemMatcher": [],
+            "label": "API: Build",
+            "detail": "vite"
+        },
+        {
+            "type": "npm",
+            "script": "build",
+            "path": "app",
+            "problemMatcher": [],
+            "label": "App: Build",
+            "detail": "vite"
+        }
+    ]
+
+}
