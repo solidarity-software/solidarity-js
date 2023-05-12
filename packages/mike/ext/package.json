@@ -23,9 +23,9 @@
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
+		"compile": "vite build",
 		"lint": "eslint \"src/**/*.ts\"",
-		"watch": "tsc -watch -p ./"
+		"watch": "vite build -w"
 	},
 	"devDependencies": {
 		"@types/node": "^16.11.7",
